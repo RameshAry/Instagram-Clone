@@ -5,6 +5,8 @@ import { db } from '../firebase'
 
 function Posts() {
   const [posts, setPosts] = useState([])
+  const [comment, setComment] = useState('')
+  const [comments, setComments] = useState([])
 
   useEffect(
     () =>
