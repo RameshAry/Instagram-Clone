@@ -16,8 +16,7 @@ import { modalState } from '../atoms/modalAtom'
 function Header() {
   const { data: session } = useSession()
   const [open, setOpen] = useRecoilState(modalState)
-
-  const router = useRouter
+  const router = useRouter()
 
   return (
     <div className="sticky top-0 z-50 border-b bg-white shadow-sm ">
