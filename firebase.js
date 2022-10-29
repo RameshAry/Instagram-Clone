@@ -2,7 +2,6 @@ import { initializeApp, getApp, getApps } from 'firebase/app'
 import { getFirestore } from 'firebase/firestore'
 import { getStorage } from 'firebase/storage'
 
-// Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: 'AIzaSyDCSi7RZIAWkMdEMqyJ-lcIBDbAwvKKKT4',
   authDomain: 'instaclone-4b4ff.firebaseapp.com',
