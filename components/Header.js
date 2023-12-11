@@ -78,11 +78,13 @@ function Header() {
               />
               <UserGroupIcon className="navBtn" />
               <HeartIcon className="navBtn" />
-              <img
+              <Image
                 onClick={signOut}
                 src={session?.user?.image}
                 alt="photo"
-                className="navBtn cursor-pointer rounded-full"
+                width={40}
+                height={40}
+                className="navBtn cursor-pointer rounded-full pl-5"
               />
             </>
           ) : (
